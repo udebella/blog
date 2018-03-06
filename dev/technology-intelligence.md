@@ -1,14 +1,19 @@
 # Technology intelligence
 
-## Interesting blogs
+## Influencers' blogs
 * [[EN] Martin Fowler's blog](https://martinfowler.com/)
 * [[EN] Clean coder](http://blog.cleancoder.com/)
+* [[EN] Adrian Bolboaca's blog](http://blog.adrianbolboaca.ro/)
+* [[FR] Brice Coquereau's blog](https://brice.coquereau.fr/)
+
+## Companies' blog
 * [[EN] 8th light](https://8thlight.com/blog/)
 * [[EN] Codurance blog](https://codurance.com/publications/)
-* [[EN] Adrian Bolboaca's blog](http://blog.adrianbolboaca.ro/)
 * [[FR] Arolla blog](http://www.arolla.fr/blog/)
+* [[FR] Octo blog](https://blog.octo.com/)
+* [[FR] Xebia blog](https://blog.xebia.fr/)
+* [[FR] Zenika blog](https://blog.zenika.com/)
 * [[FR] Steamulo blog](https://blog.steamulo.com/)
-* [[FR] Brice Coquereau's blog](https://brice.coquereau.fr/)
 
 ## Youtube channels to follow
 * [[EN] Fun Fun Function](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)
