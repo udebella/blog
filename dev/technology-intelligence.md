@@ -6,7 +6,7 @@
 * [[EN] Adrian Bolboaca's blog](http://blog.adrianbolboaca.ro/)
 * [[FR] Brice Coquereau's blog](https://brice.coquereau.fr/)
 
-## Companies' blog
+## Companies' blogs
 * [[EN] 8th light](https://8thlight.com/blog/)
 * [[EN] Codurance blog](https://codurance.com/publications/)
 * [[FR] Arolla blog](http://www.arolla.fr/blog/)
