@@ -73,7 +73,7 @@ That test can work but it has a lot of problems :
 
 ## How can we improve that kind of tests?
 
-The good news is that's a common problem: there is already someone that already solved it for you ! :smile:
+The good news is that's a common problem: there is already someone that already solved it for you ! :smile:  
 We can use [JsonAssert library](https://github.com/skyscreamer/JSONassert)
 Another good news is that, the test above does not need to be changed a lot :
 ```java
@@ -105,7 +105,8 @@ So this change will solve the first two lines of our problems :
 * ~~Jackson can write properties in any order.~~
 * ~~Error message are awful to read when the test fails~~
 
-That's really a nice library and I invite you to read the readme which is almost the whole documentation you will need.
+That's really a nice library and I invite you to read the readme which is almost the whole documentation you will need.  
+If you work with springboot, you don't need to add a dependency as it is already included in the dependency tree :wink:
 
 ## Cool but I'm using [assertj](https://github.com/joel-costigliola/assertj-core) and I don't like `assertEquals`
 
@@ -135,9 +136,9 @@ public class UserCreationTest {
 }
 ```
 
-Note : I don't use the syntax with `JacksonTester.init` in `setup` method because my IDE thinks that I did not 
+*Note : I don't use the syntax with `JacksonTester.init` in `setup` method because my IDE thinks that I did not 
 initialized my jacksonTester variable and displays a warning that I really dislike. It also uses tons of reflexion to 
-determine types and I am not a fan of that, when I can simply put it.
+determine types and I am not a fan of that, when I can simply put it.*
 
 The file `userCreation.json` can be put in test/resources folder with that content :
 ```json
