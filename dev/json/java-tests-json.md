@@ -73,7 +73,7 @@ That test can work but it has a lot of problems :
 
 ## How can we improve that kind of tests?
 
-The good news is that's a common problem: there is already someone that already solved it for you ! :simple_smile:
+The good news is that's a common problem: there is already someone that already solved it for you ! :smile:
 We can use [JsonAssert library](https://github.com/skyscreamer/JSONassert)
 Another good news is that, the test above does not need to be changed a lot :
 ```java
@@ -149,6 +149,6 @@ The file `userCreation.json` can be put in test/resources folder with that conte
 }
 ```
 
-Your IDE will be able to link the file, so no worries to lose hours looking for the file somewhere :wink: 
+Your IDE will be able to link the file, so no worries to lose hours looking for the file somewhere :wink:   
 It also solve the last problem, as the test is really shorter, and the file is a json so your IDE can help you with
 syntax highlighting and format validation.
