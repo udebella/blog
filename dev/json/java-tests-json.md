@@ -122,7 +122,8 @@ So yeah, for this part, we will be using [spring-boot-test](https://github.com/s
 as there is some classes that are really interesting inside.  
 As I'm a Jackson user, I'll write code for Jackson but there is the same for GSON.
 
-Using JacksonTester, I can improve a lot my test above :
+Using [JacksonTester](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/json/JacksonTester.html), 
+I can improve a lot my test above :
 ```java
 public class UserCreationTest {
     private final JacksonTester<UserCreation> jacksonTester = new JacksonTester<>(UserCreation.class, ResolvableType.forType(UserCreation.class), new ObjectMapper());
