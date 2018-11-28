@@ -1,4 +1,4 @@
-# Variable declaration
+# How to declare a variable
 
 ## Introduction
 
