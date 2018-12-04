@@ -56,7 +56,7 @@ const example = {
 }
 
 example.increment = increment // "Attach" the increment function to the object
-example.increment() // returns 4
+example.increment() // returns 5
 ```
 
 That example is a bit tricky, but nothing really hard to understand. As Javascript is a dynamic language, we can
