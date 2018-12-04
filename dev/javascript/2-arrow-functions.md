@@ -80,6 +80,8 @@ const example = {
     }
 }
 
+example.increment() // returns 5
+
 const increment = example.increment
 increment() // returns NaN
 ```
