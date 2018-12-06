@@ -28,7 +28,7 @@ increment(1) // returns 2
 
 I'll let [MPJ](https://www.youtube.com/watch?v=6sQDTgOqh-I) explain why we would want a better syntax for anonymous 
 functions. All I can say is that it unlocks [functional style in Javascript (FR)](https://www.youtube.com/watch?v=IQ1kDpGeoCk&t=13s)  
-In most case, you can replace the "Old" syntax with Arrow syntax, but there are some corner case in Javascript where
+Usually, you can replace the "Old" syntax with Arrow syntax, but there are some corner cases in Javascript where
 this syntax does not work at all.
 
 ### This
@@ -45,7 +45,8 @@ it won't work that way in Javascript. :confused:
 
 #### Giving a **context** to a function
 
-Let's take a simple example:
+Let's take a simple example: We are going to create an increment function and attach it to an object and see how it 
+will behave.
 ```javascript
 const increment = function() {
     return this.number + 1
@@ -163,8 +164,8 @@ increment() // returns 5 \o/
 In almost all cases, we can avoid `this` problem. I'll explain in the next article, how to create objects in javascript
 that do not rely on `this`.  
 You should always use arrow function as the syntax is far better and you keep your sanity because you don't have to
-deal with moving **contexts**. There are some case, though, where you can't escape using `this` (when dealing with
-frameworks for example). In these case, just use the "Old" notation.  
+deal with moving **contexts**. There are some cases, though, where you can't escape using `this` (when dealing with
+frameworks for example). In these cases, just use the "Old" notation.  
 When dealing with functions in Javascript, never forget about **contexts**, as it can lead you in really painful
 debugging sessions ! 
 
