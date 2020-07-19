@@ -1,0 +1,1 @@
+This article moved to [another url](./1-variable-declaration.md)
